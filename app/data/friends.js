@@ -1,0 +1,167 @@
+var friends = [
+
+{
+  name:"James",
+  photo:"https://pbs.twimg.com/profile_images/919144869339287552/XbY2oMTD.jpg",
+  scores:[
+      5,
+      1,
+      2,
+      4,
+      3,
+      1,
+      5,
+      3,
+      4,
+      1
+    ]
+},
+
+{
+  name:"Randy",
+  photo:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NDEwMjU3N15BMl5BanBnXkFtZTcwNjk2MTc1MQ@@._V1_UY317_CR2,0,214,317_AL_.jpg",
+  scores:[
+      3,
+      5,
+      1,
+      4,
+      1,
+      1,
+      5,
+      5,
+      4,
+      1
+    ]
+},
+{
+  name:"Kristen",
+  photo:"https://yt3.ggpht.com/-90R1pCzIVo0/AAAAAAAAAAI/AAAAAAAAAAA/pHo9QqSgMNA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
+  scores:[
+      5,
+      1,
+      2,
+      1,
+      3,
+      1,
+      5,
+      1,
+      4,
+      1
+    ]
+}, 
+{
+  name:"Tom",
+  photo:"https://1yxsm73j7aop3quc9y5ifaw3-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/2017TomTemin-960x960-300x300.jpg",
+  scores:[
+      2,
+      3,
+      2,
+      5,
+      3,
+      5,
+      5,
+      3,
+      4,
+      1
+    ]
+}, 
+{
+  name:"Steven",
+  photo:"http://static2.businessinsider.com/image/5899ffcf6e09a897008b5c04-1200/.jpg",
+  scores:[
+      1,
+      3,
+      1,
+      1,
+      5,
+      1,
+      5,
+      2,
+      4,
+      1
+    ]
+}, 
+{
+  name:"Marissa",
+  photo:"https://i.pinimg.com/736x/47/6c/98/476c989acbaf62850ff67146d0d23b6c--profile-pics-in-love.jpg",
+  scores:[
+      5,
+      3,
+      2,
+      1,
+      4,
+      1,
+      3,
+      1,
+      1,
+      2
+    ]
+}, 
+{
+  name:"Mary",
+  photo:"https://s3-eu-central-1.amazonaws.com/centaur-wp/moneymarketing/prod/content/uploads/2017/06/06123633/Outrim-Marlene-UNIQ-2017.jpg",
+  scores:[
+      5,
+      5,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      4,
+      1
+    ]
+}, 
+{
+  name:"Sarah",
+  photo:"http://www.tellydhamaal.com/wp-content/uploads/2017/10/Smriti-Kalra-Biography-Wiki-Serials-Age-Images-HD-Photos-Birthday-Profile-563x353.jpg",
+  scores:[
+      5,
+      4,
+      2,
+      1,
+      3,
+      4,
+      4,
+      2,
+      3,
+      1
+    ]
+}, 
+{
+  name:"Craig",
+  photo:"https://starsunfolded.com/wp-content/uploads/2017/02/MK-Stalin-profile.jpg",
+  scores:[
+      5,
+      5,
+      2,
+      1,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1
+    ]
+}, 
+{
+  name:"Adam",
+  photo:"http://static3.businessinsider.com/image/589a07aa6e09a824008b5c80/8-profile-picture-rules-every-professional-should-follow.jpg",
+  scores:[
+      5,
+      3,
+      4,
+      1,
+      4,
+      4,
+      4,
+      2,
+      4,
+      1
+    ]
+}, 
+
+]
+
+module.exports = friends;

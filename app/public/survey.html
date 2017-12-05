@@ -15,12 +15,13 @@
 	<script type="text/javascript">
 		$(document).ready(()=>{
 				var submitBtn = $("#submit-btn")
-
 				submitBtn.click((event)=>{
 						$.post($('#form').attr('action'), $('#form').serialize(), (response) => {
 							// do something here on success
 							console.log(response);
-						},'text');
+							alert("You matched with: "+response['name'])
+
+						},'json');
 				event.preventDefault(); 
 			});
 

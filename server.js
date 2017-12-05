@@ -15,8 +15,6 @@ app.get("/", function(req, res) {
 });
 
 app.post('/send/serrvey', function(req, res){
-	console.log(req.body);
-
 	var userSum = Object.values(req.body).reduce((acumulator, currentValue)=>{
 		return parseInt(acumulator) + parseInt(currentValue); 
 	});
@@ -27,14 +25,20 @@ app.post('/send/serrvey', function(req, res){
 		});
 	})
 
+	var count = 0; 
 	var differences = frindsSums.map((sum)=>{
-		return Math.abs(sum - userSum);
-	}).sort(); 
+		var differences = Math.abs(sum - userSum)
+		var output = {};
+		output[differences] = count++; 
+		return output; 
+	}).sort((a, b)=>{
+		return parseInt(Object.keys(a)[0]) - parseInt(Object.keys(b)[0])
+	}); 
 
-	console.log(differences);
-
-
-	res.send("Hello :)")
+	var friendIndex = Object.values(differences[0])[0]; 
+	// console.log(friends[friendIndex]); 
+	res.setHeader('Content-Type', 'application/json');
+	res.send(friends[friendIndex])
 });
 
 

@@ -9,14 +9,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "/home.html"));
+ res.sendFile(path.join(__dirname, "/app/public/survey.html"));
   console.log("this is working")
 
-});
-
-app.get("/survey", function(req, res) {
-  res.sendFile(path.join(__dirname, "/app/public/survey.html"));
-  console.log("this is working")
 });
 
 app.post('/send/serrvey', function(req, res){
